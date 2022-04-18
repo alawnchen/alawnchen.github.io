@@ -1,0 +1,12 @@
+{%- if theme.canvas_ribbon.enable %}
+  <script size="{{ theme.canvas_ribbon.size }}" alpha="{{ theme.canvas_ribbon.alpha }}" zIndex="{{ theme.canvas_ribbon.zIndex }}" src="{{ theme.vendors.canvas_ribbon.url }}"></script>
+{%- endif %}
+
+{%- for name in js_vendors() %}
+  {{ next_vendors(name) }}
+{%- endfor %}
+
+{%- if theme.darkmode_js.enable %}
+  <script type="module" src="{{ theme.darkmode_js.url }}"></script>
+  <dark-mode-toggle id="dark-mode-toggle" appearance="toggle" permanent="true" dark="🌓" light="🌓" style="--dark-mode-toggle-light-icon:none;--dark-mode-toggle-dark-icon:none;"></dark-mode-toggle>
+{%- endif %}
