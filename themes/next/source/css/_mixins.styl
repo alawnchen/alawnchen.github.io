@@ -241,6 +241,7 @@ site-nav-hide-by-default() {
   overflow: hidden;
   background: var(--body-bg-color);
   position: fixed;
+  z-index: 10;
   transition: left $transition-ease;
 
   body:not(.site-nav-on) & .animated {
