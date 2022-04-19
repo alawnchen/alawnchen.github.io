@@ -2,7 +2,7 @@
 
 NexT.boot = {};
 
-NexT.boot.registerEvents = function() {
+NexT.boot.registerEvents = function () {
 
   NexT.utils.registerScrollPercent();
   NexT.utils.registerCanIUseTag();
@@ -12,7 +12,8 @@ NexT.boot.registerEvents = function() {
     event.currentTarget.classList.toggle('toggle-close');
     const siteNav = document.querySelector('.site-nav');
     if (!siteNav) return;
-    siteNav.style.setProperty('--scroll-height', siteNav.scrollHeight + 'px');
+    // siteNav.style.setProperty('--scroll-height', siteNav.scrollHeight + 'px');
+    siteNav.style.setProperty('--scroll-left', '0');
     document.body.classList.toggle('site-nav-on');
   });
 
@@ -31,7 +32,7 @@ NexT.boot.registerEvents = function() {
   });
 };
 
-NexT.boot.refresh = function() {
+NexT.boot.refresh = function () {
 
   /**
    * Register JS handlers by condition option.
@@ -55,7 +56,7 @@ NexT.boot.refresh = function() {
   NexT.utils.registerVideoIframe();
 };
 
-NexT.boot.motion = function() {
+NexT.boot.motion = function () {
   // Define Motion Sequence & Bootstrap Motion.
   if (CONFIG.motion.enable) {
     NexT.motion.integrator
