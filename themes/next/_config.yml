@@ -385,12 +385,12 @@ back2top:
 
 # Reading progress bar
 reading_progress:
-  enable: true
+  enable: false
   # Available values: left | right
   start_at: left
   # Available values: top | bottom
   position: top
-  reversed: true
+  reversed: false
   color: "#37c6c0"
   height: 2px
 
