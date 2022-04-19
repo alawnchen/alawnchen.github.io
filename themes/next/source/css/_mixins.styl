@@ -236,9 +236,11 @@ site-nav-hide-by-default() {
   --scroll-left: -100%;
   height: 100vh;
   width: 100vw;
-  left: -100%;
+  left: -100vw;
   top: 75px;
   overflow: hidden;
+  background: #fff;
+  position: fixed;
   transition: left $transition-ease;
 
   body:not(.site-nav-on) & .animated {
