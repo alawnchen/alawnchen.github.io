@@ -22,7 +22,12 @@
   flex-shrink: 0;
   padding: 0 10px;
   +tablet-mobile() {
-    display: none;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    z-index: 31;
   }
 }
 
