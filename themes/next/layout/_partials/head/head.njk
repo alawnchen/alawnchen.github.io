@@ -43,7 +43,7 @@
 
 <link rel="stylesheet" href="{{ url_for(theme.css) }}/main.css">
 {%- if theme.darkmode_js.enable %}
-<style type="text/css">#dark-mode-toggle{width:42px;height:42px;display:flex;justify-content:center;align-items:center;position:fixed;bottom:60px;right:30px;background:#282828;border-radius:21px;overflow:hidden;}#dark-mode-toggle[mode="dark"]{background:#f5f7f9}#dark-mode-toggle::part(toggleLabel)::before{margin-inline-end:0!important;height:0!important;width:0!important;}</style>
+<style type="text/css">#dark-mode-toggle{width:42px;height:42px;display:flex;justify-content:center;align-items:center;position:fixed;bottom:60px;right:30px;background:#282828;border-radius:21px;overflow:hidden;z-index:11;}#dark-mode-toggle[mode="dark"]{background:#f5f7f9}#dark-mode-toggle::part(toggleLabel)::before{margin-inline-end:0!important;height:0!important;width:0!important;}</style>
 <link rel="stylesheet" href="{{ url_for(theme.css) }}/darkmode.css" media="(prefers-color-scheme: dark)">
 {%- endif %}
 
