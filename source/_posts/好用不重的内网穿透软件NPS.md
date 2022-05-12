@@ -150,22 +150,22 @@ touch /etc/caddy/Caddyfile #建立配置文件
 是邮箱地址，请按照自己的实际内容修改）：
 
 ```
-nps.domain.tls {                                                                                                                           
-        gzip                                                                                                                               
-        redir  301 {                                                                                                                       
-                if {>X-Forwarded-Proto} is http                                                                                            
-                / https://nps.domain.tls{uri}                                                                                              
-        }
-        tls 10000@163.com                                                    
-        log /var/log/caddy/nps.domain.tls.log {                                                                                            
-                rotate_size 5                                                                                                              
-                rotate_age 5                                                                                                               
-                rotate_keep 2                                                                                                              
-                rotate_compress                                                                                                            
-        }                                                                                                                                  
-        proxy / 127.0.0.1:8080 {                                                                                                           
-                transparent                                                                                                                
-        }                                                                                                                                  
+nps.domain.tls{
+  gzip
+  redir 301{
+    if {>X-Forwarded-Proto} is http
+      / https://nps.domain.ltd{uri}                  
+  }
+  tls 10000@163.com                                                    
+  log /var/log/caddy/nps.domain.tls.log{
+    rotate_size 5
+    rotate_age 5
+    rotate_keep 2
+    rotate_compress
+  }
+  proxy / 127.0.0.1:8080{
+    transparent
+  }
 }
 ```
 
