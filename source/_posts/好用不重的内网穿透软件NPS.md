@@ -183,6 +183,10 @@ systemctl start caddy.service #启动caddy
 
 访问https://nps.domain.tls，输入上面配置文件里面的web_username和web_password登录。点击左边菜单“客户端”，点击“新增”按钮新增客户端。按照下图填写表单，填写好了，点击“新增”按钮保存。
 
+![新增客户端](/images/nps1.jpg "新增客户端")
+
+![查看客户端ID](/images/nps3.jpg "查看客户端ID")
+
 ## 客户端
 
 大部分的客户端安装都比较简单，也基本是一键安装。这里还是以Linux 64Bit为例安装客户端。
@@ -220,6 +224,7 @@ npc start #启动客户端
 
 假设，本地局域网有一台机器，局域网IP是192.168.2.50，服务绑定的端口号是5000，绑定的域名是file.domain.tls。那么，请按照下图配置：
 
+![新增主机](/images/nps2.jpg "新增主机")
 
 
 配置好之后，我们回到反向代理那一步，处理一下域名。编辑/etc/caddy/Caddyfile，追加如下内容：
