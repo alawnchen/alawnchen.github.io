@@ -77,4 +77,4 @@ centos系统的定时任务文件对应的目录是 /var/spool/cron，文件以�
 
 ## 拓展一下
 
-如果觉得还是不够6，可以参考一下《利用inotify+rsync实时同步数据到远程服务器之二[/sync-data-realtime-with-inotify-rsync-v2]》，把备份出来的数据实时同步到其他服务器上面！不费力，也很稳定，小型数据库，足矣！
+如果觉得还是不够6，可以参考一下《[利用inotify+rsync实时同步数据到远程服务器之二](/sync-data-realtime-with-inotify-rsync-v2)》，把备份出来的数据实时同步到其他服务器上面！不费力，也很稳定，小型数据库，足矣！

@@ -24,11 +24,9 @@ Chrome使用本地扩展。本地安装插件确实是方便了自定义，但�
  1. 打开Google
     Chrome插件管理页面，即chrome://extensions，在右上角处打开“开发者模式”。如果打开成功，那么左上角会出现“加载已解压的扩展程序”和“打包扩展程序”两个按钮
  2. 点击“打包扩展程序”按钮，选择要打包的文件夹，按照提示把代码打包成扩展程序。把打包好的本地扩展程序crx拖拽到扩展程序页面完成安装。安装后，扩展程序无法启用。找到安装好的扩展程序，我们复制一下扩展程序的ID。
- 3. 打开http://www.chromium.org/administrators/policy-templates  页面下载策略模版（点击这里[https://dl.google.com/dl/edgedl/chrome/policy/policy_templates.zip]
-    下载也可以）。解压之后，在windows文件夹里面打开adm文件夹，找到自己系统语言对应的文件夹，把chrome.adm解压出来。点击开始菜单，打开运行，在输入框里面输入gpedit.msc，按enter启动本地组策略编辑器。
+ 3. 打开http://www.chromium.org/administrators/policy-templates  页面下载策略模版（[点击这里](https://dl.google.com/dl/edgedl/chrome/policy/policy_templates.zip)下载也可以）。解压之后，在windows文件夹里面打开adm文件夹，找到自己系统语言对应的文件夹，把chrome.adm解压出来。点击开始菜单，打开运行，在输入框里面输入gpedit.msc，按enter启动本地组策略编辑器。
  4. 我们在左边展开“计算机配置”，在“管理模版”处右击，选择“添加/删除模版(A)…”打开“添加/删除模版”对话框。在对话框里面，点击“添加”按钮，选择上一步得到的chrome.adm文件，导入管理模版。
- 5. 导入成功后，依次展开“计算机配置”-“管理模版”-“经典管理模版ADM”-“Google”-“Google
-    Chrome”-“扩展程序”，在右侧，我们双击“配置扩展程序安装白名单”，打开“配置扩展程序安装白名单”对话框。点击“启用”后，下面会显示内容，在下面左边点击“显示”按钮，把第2步得到的ID添加进去，然后依次保存。
+ 5. 导入成功后，依次展开“计算机配置”-“管理模版”-“经典管理模版ADM”-“Google”-“Google Chrome”-“扩展程序”，在右侧，我们双击“配置扩展程序安装白名单”，打开“配置扩展程序安装白名单”对话框。点击“启用”后，下面会显示内容，在下面左边点击“显示”按钮，把第2步得到的ID添加进去，然后依次保存。
  6. 重启Google Chrome，会有一个提示，但是也是最后的提示。此后就可以正常地使用这个本地扩展程序，就像在线安装的一样。
 
 ## Mac下安装本地扩展
@@ -37,5 +35,4 @@ Chrome使用本地扩展。本地安装插件确实是方便了自定义，但�
 
 ## Linux下安装本地扩展
 
-打包步骤也是参考windows下的第1和第2步骤，具体是不是需要配置，我就没有去实践了，可打开
-http://www.chromium.org/administrators/policy-templates  看看说明！
+打包步骤也是参考windows下的第1和第2步骤，具体是不是需要配置，我就没有去实践了，可打开<http://www.chromium.org/administrators/policy-templates>看看说明！

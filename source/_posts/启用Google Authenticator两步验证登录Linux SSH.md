@@ -9,8 +9,7 @@ categories:
 url: login-ssh-with-2fa-authentication-by-google-authencator
 ---
 
-> Linux的SSH是系统的大门，安全重要性可想而知。下面我以Linux的发行版Centos7为栗子，介绍一下如何启用Google
-Authenticator作为两步验证的工具保护我们的SSH。
+> Linux的SSH是系统的大门，安全重要性可想而知。下面我以Linux的发行版Centos7为栗子，介绍一下如何启用Google Authenticator作为两步验证的工具保护我们的SSH。
 
 <!--more-->
 
@@ -95,8 +94,7 @@ auth required pam_google_authenticator.so nullok
 google-authenticator
 ```
 
-然后一路Y，再扫码就好！！登录验证的时候，只保留interactive和password，先输入手机Google
-Authenticator的验证码，再输入密码，就可以登录
+然后一路Y，再扫码就好！！登录验证的时候，只保留interactive和password，先输入手机Google Authenticator的验证码，再输入密码，就可以登录
 
 
 

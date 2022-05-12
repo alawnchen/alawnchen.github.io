@@ -28,8 +28,7 @@ Version 5。填好之后，依次保存即可。proxifier是个收费软件，�
 
 ## Mac实现
 
-Mac上面，我使用的是Proxychains-ng。这里简单说一下两种安装方式。最新的Release版本是4.13，在Github上面的地址是
-https://github.com/rofl0r/proxychains-ng。
+Mac上面，我使用的是Proxychains-ng。这里简单说一下两种安装方式。最新的Release版本是4.13，在Github上面的地址是https://github.com/rofl0r/proxychains-ng。
 
 ### 编译安装
 

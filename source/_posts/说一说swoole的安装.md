@@ -20,9 +20,7 @@ C扩展，所以也补充一下PHP的版本，是7.1.19。安装的swoole是最�
 
 ## 安装hiredis
 
-swoole异步redis客户端的实现依赖于hiredis。hiredis是一个基于C开发的redis客户端，要求redis版本必须等于或者大于1.2。github地址是
-
-https://github.com/redis/hiredis
+swoole异步redis客户端的实现依赖于hiredis。hiredis是一个基于C开发的redis客户端，要求redis版本必须等于或者大于1.2。github地址是<https://github.com/redis/hiredis>
 
 ```
 wget https://github.com/redis/hiredis/archive/v0.13.3.tar.gz
@@ -34,7 +32,7 @@ sudo make install
 
 ## 安装nghttp2
 
-安装nghttp2是为了解决swoole支持http2的依赖。github地址是https://github.com/nghttp2/nghttp2
+安装nghttp2是为了解决swoole支持http2的依赖。github地址是<https://github.com/nghttp2/nghttp2>
 
 ```
 wget https://github.com/nghttp2/nghttp2/releases/download/v1.32.0/nghttp2-1.32.0.tar.bz2

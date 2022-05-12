@@ -118,8 +118,7 @@ which inotifywatch
 
 ## 配置inotify-tools和rsync
 
-rsync已经默认安装在群晖的DSM系统上面，而inotify-tools和rsync相关配置可以参考一下《
-利用inotify+rsync实时同步数据到远程服务器[/sync-data-realtime-with-inotify-rsync/]》，这里就不再多说。
+rsync已经默认安装在群晖的DSM系统上面，而inotify-tools和rsync相关配置可以参考一下《[利用inotify+rsync实时同步数据到远程服务器](/sync-data-realtime-with-inotify-rsync/)》，这里就不再多说。
 
 ## 一些说明
 

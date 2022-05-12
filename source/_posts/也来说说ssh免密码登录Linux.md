@@ -26,4 +26,4 @@ url: logining-ssh-without-password-on-linux
 
 ## 小结
 
-网络的发达注定了服务器更多地暴露在公共网络环境。所以，能多安全就要多安全！开启密钥文件登录后，建议关闭密码验证！假如真的必须用密码登录，那最好启用Google Authenticator两步验证登录Linux SSH[/login-ssh-with-2fa-authentication-by-google-authencator]。修改了SSH的端口，安装上denyhosts等类似软件！
+网络的发达注定了服务器更多地暴露在公共网络环境。所以，能多安全就要多安全！开启密钥文件登录后，建议关闭密码验证！假如真的必须用密码登录，那最好《启用[Google Authenticator两步验证登录Linux SSH](/login-ssh-with-2fa-authentication-by-google-authencator)》。修改了SSH的端口，安装上denyhosts等类似软件！

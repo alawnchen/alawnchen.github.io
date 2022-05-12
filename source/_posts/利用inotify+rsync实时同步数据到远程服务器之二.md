@@ -9,14 +9,11 @@ categories:
 url: sync-data-realtime-with-inotify-rsync-v2
 ---
 
-> inotify的新版本出来许久，我才发现，现在把它升级一下吧。目下，inotify的新版本号是3.20.1。它的Github地址是
-https://github.com/rvoicilas/inotify-tools
+> inotify的新版本出来许久，我才发现，现在把它升级一下吧。目下，inotify的新版本号是3.20.1。它的Github地址是<https://github.com/rvoicilas/inotify-tools>
 
 <!--more-->
 
-最近因为备份数据，在服务器上面配置inotify+rsync实时同步（参考《利用inotify+rsync实时同步数据到远程服务器
-[/sync-data-realtime-with-inotify-rsync]
-》）时发现inotify升级了。于是打算把inotify升级一下，顺便把原来用/etc/rc.local开机启动的方式改成用supervisor守护进程。
+最近因为备份数据，在服务器上面配置inotify+rsync实时同步（参考《[利用inotify+rsync实时同步数据到远程服务器](/sync-data-realtime-with-inotify-rsync)》）时发现inotify升级了。于是打算把inotify升级一下，顺便把原来用/etc/rc.local开机启动的方式改成用supervisor守护进程。
 
 ## 安装inotify
 
@@ -85,4 +82,4 @@ stdout_logfile_backups=3
 
 ## 最后
 
-supervisor守护进程的说明，可参考《Linux上用supervisor守护进程[/run-daemon-process-with-supervisor-on-linux]》。
+supervisor守护进程的说明，可参考《[Linux上用supervisor守护进程](/run-daemon-process-with-supervisor-on-linux)》。

@@ -8,8 +8,7 @@ categories:
 url: remove-the-ip-blocked-by-denyhosts
 ---
 
-> denyhosts为我们保护服务器提供了一种很好的保护机制。但是有时候使用不当，自己的IP就会被加入到黑名单里面！！
-我现在以Centos7.3为例，说说怎么解除被封禁的IP吧。其他版本的Linux发行版的方式，大家可以举一反三！！
+> denyhosts为我们保护服务器提供了一种很好的保护机制。但是有时候使用不当，自己的IP就会被加入到黑名单里面！！我现在以Centos7.3为例，说说怎么解除被封禁的IP吧。其他版本的Linux发行版的方式，大家可以举一反三！！
 
 <!--more-->
 

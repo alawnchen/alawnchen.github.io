@@ -20,7 +20,7 @@ emoji这玩意，“很不幸”地被日本发明，最初是日本在无线通
 ## emoji的编码
 
 emoji表情对应的Unicode编码在mysql数据库里面，需要用到的字符集是utf8mb4。unicode.org
-专门整理了一个完整的emoji的编码表。具体地址：https://unicode.org/emoji/charts/full-emoji-list.html
+专门整理了一个完整的emoji的编码表。具体地址：<https://unicode.org/emoji/charts/full-emoji-list.html>
 
 ## 存储emoji
 

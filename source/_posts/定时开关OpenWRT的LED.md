@@ -15,7 +15,7 @@ url: ding-shi-kai-guan-openwrtde-led
  
 ## 确定配置文件所在
 
-首先，我通过Google搜索，查到了OpenWRT官网LED的说明文档[https://openwrt.org/docs/guide-user/base-system/led_configuration]
+首先，我通过Google搜索，查到了[OpenWRT官网LED的说明文档](https://openwrt.org/docs/guide-user/base-system/led_configuration)
 。查到了相关的配置文件夹以及基本工作原理。经过比对文档和文件，发现我们可以控制触发器（trigger）和亮度（brightness）来达到控制LED。在这里，只通过控制亮度去控制LED，简单高效。
 
 ## 任务脚本

@@ -17,7 +17,7 @@ url: talking-about-iptables-and-ipset
 
 ## 安装iptables
 
-具体的安装方法，网上有很多，也可以参考我自己记录的《在centos7上安装iptables作为防火墙[/install-iptables-as-firewall-on-centos7]》。大家最好字字句句看清楚，有一些注释说明很重要。
+具体的安装方法，网上有很多，也可以参考我自己记录的《[在centos7上安装iptables作为防火墙](/install-iptables-as-firewall-on-centos7)》。大家最好字字句句看清楚，有一些注释说明很重要。
 
 ## 安装ipset
 
