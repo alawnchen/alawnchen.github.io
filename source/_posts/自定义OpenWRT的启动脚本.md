@@ -7,11 +7,10 @@ tags:
 categories:
   - 技术
 url: zi-ding-yi-openwrtde-qi-dong-jiao-ben
+description: OpenWRT是最流行的开源路由器系统，貌似没有之一。很出名的Lede是基于OpenWRT开发的，甚至于最近声名鹊起的国内企业开发的高恪路由器系统也是基于OpenWRT开发的。对于使用者来说，自定义OpenWRT的启动脚本，也是一种必要的技能！！
 ---
 
 > OpenWRT是最流行的开源路由器系统，貌似没有之一。很出名的Lede是基于OpenWRT开发的，甚至于最近声名鹊起的国内企业开发的高恪路由器系统也是基于OpenWRT开发的。对于使用者来说，自定义OpenWRT的启动脚本，也是一种必要的技能！！
-
-<!--more-->
 
 ## 建立启动脚本
 

@@ -8,11 +8,10 @@ tags:
 categories:
   - 技术
 url: the-right-way-of-startup-to-docker-and-pm2
+description: Docker和pm2是不同的东西，不过都同为新生技术产物。所以，很多东西都还需要时间去摸索和熟悉。想想，Docker和pm2的开机自启就曾经困扰了很多人吧。下面说一下这两个东西的开机自启功能吧！
 ---
 
 > Docker和pm2是不同的东西，不过都同为新生技术产物。所以，很多东西都还需要时间去摸索和熟悉。想想，Docker和pm2的开机自启就曾经困扰了很多人吧。下面说一下这两个东西的开机自启功能吧！
-
-<!--more-->
 
 ## Docker开机自启
 

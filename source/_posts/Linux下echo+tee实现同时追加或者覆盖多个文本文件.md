@@ -7,11 +7,10 @@ tags:
 categories:
   - 技术
 url: operate-many-files-in-echo-and-tee-on-linux
+description: Linux是个美妙的操作系统，它高效、它安全、它简洁，它还有着神秘的魅力！不同于Windows的图形化的直白，Linux和macOS的美妙之处总是需要大伙去用心去发现。
 ---
 
 > Linux是个美妙的操作系统，它高效、它安全、它简洁，它还有着神秘的魅力！不同于Windows的图形化的直白，Linux和macOS的美妙之处总是需要大伙去用心去发现。
-
-<!--more-->
 
 
 向文件里面追加或者覆盖一些文本内容，我们最容易想到也是最容易选择到的命令是echo命令。

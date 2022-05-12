@@ -7,11 +7,10 @@ tags:
 categories:
   - 技术
 url: install-iptables-as-firewall-on-centos7
+description: 从centos7开始，centos就默认firewalld作为系统的防火墙。但在一些情况下，我们就不得不换回iptables。
 ---
 
 > 从centos7开始，centos就默认firewalld作为系统的防火墙。但在一些情况下，我们就不得不换回iptables。
-
-<!--more-->
 
 ## 安装iptables并启动它
 

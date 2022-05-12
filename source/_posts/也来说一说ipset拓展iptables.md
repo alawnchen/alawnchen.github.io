@@ -8,11 +8,10 @@ tags:
 categories:
   - 技术
 url: talking-about-iptables-and-ipset
+description: ipset是一个很好的东西，它为大量地封禁IP提供了一个非常好的解决方案。初次使用ipset拓展iptables也遇上了不少问题，几经折腾，也终于得到了完美的解决！
 ---
 
 > ipset是一个很好的东西，它为大量地封禁IP提供了一个非常好的解决方案。初次使用ipset拓展iptables也遇上了不少问题，几经折腾，也终于得到了完美的解决！
-
-<!--more-->
 
 
 ## 安装iptables

@@ -7,11 +7,10 @@ tags:
 categories:
   - 技术
 url: create-and-remove-use-partition-on-esxi
+description: 首先呢，简单地说一下ESXI。ESXI是一款服务器级别的虚拟机，多被用于服务器领域，而最近火起来的很多软路由多系统共存的解决方案也都大多选择了ESXI。而我，也过了一回软路由的瘾。
 ---
 
 > 首先呢，简单地说一下ESXI。ESXI是一款服务器级别的虚拟机，多被用于服务器领域，而最近火起来的很多软路由多系统共存的解决方案也都大多选择了ESXI。而我，也过了一回软路由的瘾。
-
-<!--more-->
 
 ## 故事的开头
 

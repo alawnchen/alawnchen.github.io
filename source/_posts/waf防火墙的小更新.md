@@ -8,11 +8,10 @@ tags:
 categories:
   - 技术
 url: the-modification-of-waf-firewall
+description: lua，很多人应该都听过。据说高性能，据说很简单，据说还可以与nginx配合……因为着很多优点，很多云服务商都提供了基于lua开发的waf防火墙，美其名曰云waf。从这也看出waf应该是很有成效的，阿里云就提供了云waf，用于防御DDOS与CC攻击。所以，我也赶了赶时髦，部署waf到服务器上面。
 ---
 
 > lua，很多人应该都听过。据说高性能，据说很简单，据说还可以与nginx配合……因为着很多优点，很多云服务商都提供了基于lua开发的waf防火墙，美其名曰云waf。从这也看出waf应该是很有成效的，阿里云就提供了云waf，用于防御DDOS与CC攻击。所以，我也赶了赶时髦，部署waf到服务器上面。
-
-<!--more-->
 
 ## 一点絮叨
 

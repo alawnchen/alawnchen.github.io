@@ -7,11 +7,10 @@ tags:
 categories:
   - 技术
 url: a-backup-method-for-mini-mysql-database
+description: 有时候，自己搞一个博客、小型论坛再或者一个小型的项目，如果又不想选择xtrabackup或者自己写个小程序备份的话，这里有一个很不错的小方案可以选择哟！
 ---
 
 > 有时候，自己搞一个博客、小型论坛再或者一个小型的项目，如果又不想选择xtrabackup或者自己写个小程序备份的话，这里有一个很不错的小方案可以选择哟！
-
-<!--more-->
 
 ## 前言
 

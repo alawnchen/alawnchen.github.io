@@ -7,11 +7,10 @@ tags:
 categories:
   - 技术
 url: login-ssh-with-2fa-authentication-by-google-authencator
+description: Linux的SSH是系统的大门，安全重要性可想而知。下面我以Linux的发行版Centos7为栗子，介绍一下如何启用Google Authenticator作为两步验证的工具保护我们的SSH。
 ---
 
 > Linux的SSH是系统的大门，安全重要性可想而知。下面我以Linux的发行版Centos7为栗子，介绍一下如何启用Google Authenticator作为两步验证的工具保护我们的SSH。
-
-<!--more-->
 
 ## 安装ntpd
 

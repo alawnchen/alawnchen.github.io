@@ -8,11 +8,10 @@ tags:
 categories:
   - 技术
 url: install-nginx-and-lua
+description: nginx嘛，自不必说了，最好使的服务器软件之一。lua的特点，想必很多人也是心知肚明的。而OpenResty给我们看到了一种nginx的新玩法，那就是nginx+lua。
 ---
 
 > nginx嘛，自不必说了，最好使的服务器软件之一。lua的特点，想必很多人也是心知肚明的。而OpenResty给我们看到了一种nginx的新玩法，那就是nginx+lua。
-
-<!--more-->
 
 ## 准备
 

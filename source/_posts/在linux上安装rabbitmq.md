@@ -7,11 +7,10 @@ tags:
 categories:
   - 技术
 url: install-rabbitmq-on-linux
+description: 最近，在一个项目里面用到了RabbitMQ。消息队列用过不少，不过，RabbitMQ还真的是第一次接触。第一次也碰上了一个很有意思的小地方。
 ---
 
 最近，在一个项目里面用到了RabbitMQ。消息队列用过不少，不过，RabbitMQ还真的是第一次接触。第一次也碰上了一个很有意思的小地方。
-
-<!--more-->
 
 ## 环境说明
 

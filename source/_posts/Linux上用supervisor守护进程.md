@@ -7,11 +7,10 @@ tags:
 categories:
   - 技术
 url: run-daemon-process-with-supervisor-on-linux
+description: 很多时候，需要在后台长期、随机启动运行一些，而且还得保证服务器稳定和可靠。所以，就出现了很多进程管理系统，而supervisor就是众多软件中的佼佼者！
 ---
 
 > 很多时候，需要在后台长期、随机启动运行一些，而且还得保证服务器稳定和可靠。所以，就出现了很多进程管理系统，而supervisor就是众多软件中的佼佼者！
-
-<!--more-->
 
 
 ## 环境说明

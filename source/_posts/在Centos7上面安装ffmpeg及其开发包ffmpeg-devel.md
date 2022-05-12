@@ -6,11 +6,11 @@ tags:
 categories:
   - 技术
 url: install-ffpmeg-and-ffmpeg-devel-on-centos7
+description: ffmpeg作为一个开源，成熟的多媒体播放、转换、压缩解决方案，是广大多媒体资源从业者的最好的一个选择。最近，新上线的一个项目也用到了ffmpeg，所以也来说说怎么在centos上面安装ffmpeg及其开发包ffmpeg-evel。
 ---
 
 > ffmpeg作为一个开源，成熟的多媒体播放、转换、压缩解决方案，是广大多媒体资源从业者的最好的一个选择。最近，新上线的一个项目也用到了ffmpeg，所以也来说说怎么在centos上面安装ffmpeg及其开发包ffmpeg-evel。
 
-<!--more-->
 ## 约定
 
 我所用的系统是Centos 7.4 64bit。至于其他的Linux发行版或者macOS，请自行变通处理，这里仅作为一个参考。
@@ -65,4 +65,4 @@ chmod a+x ffmpeg-install
 
 ```
 ffmpeg -version
-```s
+```

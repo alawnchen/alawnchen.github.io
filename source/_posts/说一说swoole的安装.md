@@ -6,11 +6,10 @@ tags:
 categories:
   - 技术
 url: about-swoole-installtion
+description: 因为项目需求，接触过几次swoole。swoole把项目的实现难度降低了一个维度，是一个实实在在的好东西。不过，这个东西也很让很多新手头疼吧，毕竟是一个基于C开发出来的PHP扩展。我也为swoole普及使点力，就说一说swoole的编译安装吧。
 ---
 
 > 因为项目需求，接触过几次swoole。swoole把项目的实现难度降低了一个维度，是一个实实在在的好东西。不过，这个东西也很让很多新手头疼吧，毕竟是一个基于C开发出来的PHP扩展。我也为swoole普及使点力，就说一说swoole的编译安装吧。
-
-<!--more-->
 
 ## 环境说明
 

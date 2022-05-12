@@ -7,11 +7,10 @@ tags:
 categories:
   - 技术
 url: ding-shi-kai-guan-openwrtde-led
+description: 家里面，不管是老家用的路由器，还是在美食之都用的软路由，用的都是OpenWRT系统。用上OpenWRT之后，抖音不卡，微信666。不过，它的指示灯实在是太亮了，尤其是夜里面！所以呢，就折腾了一下，定时开关OpenWRT的LED。
 ---
 
 > 家里面，不管是老家用的路由器，还是在美食之都用的软路由，用的都是OpenWRT系统。用上OpenWRT之后，抖音不卡，微信666。不过，它的指示灯实在是太亮了，尤其是夜里面！所以呢，就折腾了一下，定时开关OpenWRT的LED。
-
-<!--more-->
  
 ## 确定配置文件所在
 

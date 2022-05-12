@@ -6,11 +6,10 @@ tags:
 categories:
   - 技术
 url: install-the-php-c-extension-opencc
+description: 基于一个项目的需要，需要在PHP上面实现繁体转简体汉字相互转换的需求。为了保证运行效率，基于C/C++写出来的PHP扩展当然是首选，所以我找到了OpenCC。下面就说说在centos7上面安装OpenCC的整个过程，PHP版本PHP7.1.12，编译了Zend OPcache扩展。
 ---
 
-> 引用基于一个项目的需要，需要在PHP上面实现繁体转简体汉字相互转换的需求。为了保证运行效率，基于C/C++写出来的PHP扩展当然是首选，所以我找到了OpenCC。下面就说说在centos7上面安装OpenCC的整个过程，PHP版本PHP7.1.12，编译了Zend OPcache扩展。
-
-<!--more-->
+> 基于一个项目的需要，需要在PHP上面实现繁体转简体汉字相互转换的需求。为了保证运行效率，基于C/C++写出来的PHP扩展当然是首选，所以我找到了OpenCC。下面就说说在centos7上面安装OpenCC的整个过程，PHP版本PHP7.1.12，编译了Zend OPcache扩展。
 
 ## 安装EPEL
 

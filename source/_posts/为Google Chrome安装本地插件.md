@@ -6,11 +6,10 @@ tags:
 categories:
   - 记录
 url: install-google-chrome-local-extensions
+description: 很早就开始使用Google Chrome浏览器，除了我自己对Google的产品有一种迷之好感，还有Google Chrome秉承的简洁高效理念以及Google Chrome自带的安全功能。
 ---
 
 > 很早就开始使用Google Chrome浏览器，除了我自己对Google的产品有一种迷之好感，还有Google Chrome秉承的简洁高效理念以及Google Chrome自带的安全功能。
-
-<!--more-->
 
 ## 安全和自定义的矛盾
 
