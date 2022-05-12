@@ -9,8 +9,7 @@ categories:
 url: hao-yong-bu-zhong-de-nei-wang-chuan-tou-ruan-jian-nps
 ---
 
-> 内网穿透用过几个了，有用过群晖自带，用过FRP，用过ngrok，用过阿里云DDNS，还尝试用过LEDE自带的Kool
-DDNS。但是说到最满意的，还是当下使用的NPS。NPS的特点嘛，简单、好用、硬件要求低、轻量，还有配置简单和跨平台性极好。
+> 内网穿透用过几个了，有用过群晖自带，用过FRP，用过ngrok，用过阿里云DDNS，还尝试用过LEDE自带的Kool DDNS。但是说到最满意的，还是当下使用的NPS。NPS的特点嘛，简单、好用、硬件要求低、轻量，还有配置简单和跨平台性极好。
 
 <!--more-->
 
@@ -28,8 +27,7 @@ wget https://github.com/ehang-io/nps/releases/download/v0.26.4/linux_amd64_serve
 tar xzf /data/linux_amd64_server.tar.gz -C /data/nps/ #解压文件
 ```
 
-编辑配置/data/nps/conf/nps.conf
-文件，修改成如下（public_vkey、web_username和web_password分别代表验证密钥、web管理需要的用户名和密码，自行修改）：
+编辑配置/data/nps/conf/nps.conf文件，修改成如下（public_vkey、web_username和web_password分别代表验证密钥、web管理需要的用户名和密码，自行修改）：
 
 ```
 appname = nps
