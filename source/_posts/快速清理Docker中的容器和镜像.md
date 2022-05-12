@@ -10,6 +10,8 @@ url: quickly-delete-dockers-containtor-and-images
 
 > Docker用起来很爽，但是如果不熟悉，也会很棘手！比如：怎么让Docker中的镜像随机启动，又或者怎么快速地删除镜像。下面是Docker中清理容器和镜像的命令！
 
+<!--more-->
+
 
 ## 停止所有容器的进程
 

@@ -12,6 +12,8 @@ url: the-right-way-of-startup-to-docker-and-pm2
 
 > Docker和pm2是不同的东西，不过都同为新生技术产物。所以，很多东西都还需要时间去摸索和熟悉。想想，Docker和pm2的开机自启就曾经困扰了很多人吧。下面说一下这两个东西的开机自启功能吧！
 
+<!--more-->
+
 ## Docker开机自启
 
 很多人说要写docker开机启动脚本啊，要不在init.d里面添加啊，又或者追加到rc.local里面去。其实远没有那么麻烦，因为docker有着自己的方式！
