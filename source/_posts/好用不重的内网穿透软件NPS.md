@@ -154,7 +154,7 @@ nps.domain.tls{
   gzip
   redir 301{
     if {>X-Forwarded-Proto} is http
-      / https://nps.domain.ltd{uri}                  
+    / https://nps.domain.ltd{uri}                  
   }
   tls 10000@163.com                                                    
   log /var/log/caddy/nps.domain.tls.log{
@@ -183,34 +183,19 @@ systemctl start caddy.service #启动caddy
 
 访问https://nps.domain.tls，输入上面配置文件里面的web_username和web_password登录。点击左边菜单“客户端”，点击“新增”按钮新增客户端。按照下图填写表单，填写好了，点击“新增”按钮保存。
 
+## 客户端
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-客户端
 大部分的客户端安装都比较简单，也基本是一键安装。这里还是以Linux 64Bit为例安装客户端。
 
+```
 mkdir -p /data/npc #找块地
 wget https://github.com/ehang-io/nps/releases/download/v0.26.4/linux_amd64_client.tar.gz -O /data/linux_amd64_client.tar.gz #拿到货
 tar xzf /data/linux_amd64_client.tar.gz -C /data/npc/ #卸货
-
+```
 
 编辑配置/data/npc/conf/npc.conf，内容如下（vkey是添加客户端时候需要用到的，详看caddy网页端管理那一步的图片，8.8.8.8换成真实的服务器IP地址）
 
+```
 [common]
 server_addr=8.8.8.8:8024
 conn_type=tcp
@@ -221,92 +206,46 @@ flow_limit=1000
 rate_limit=1000
 crypt=true
 compress=true
-
+```
 
 执行以下命令，完成安装并启动客户端
 
+```
 cd /data/npc #找到解压目录
 ./npc install -config=/data/npc/conf/npc.conf #执行安装
 npc start #启动客户端
+```
 
+## 域名解析
 
-域名解析
 假设，本地局域网有一台机器，局域网IP是192.168.2.50，服务绑定的端口号是5000，绑定的域名是file.domain.tls。那么，请按照下图配置：
-
-
-
-客户端ID这样查看
-
-客户端ID
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 配置好之后，我们回到反向代理那一步，处理一下域名。编辑/etc/caddy/Caddyfile，追加如下内容：
 
+```
 file.domain.tls {
-        gzip
-        redir  301 {
-                if {>X-Forwarded-Proto} is http
-                / https://{host}{uri}
-        }
-        tls 10000@163.com
-        log /var/log/caddy/nps.log {
-                rotate_size 5
-                rotate_age 5
-                rotate_keep 2
-                rotate_compress
-        }
-        proxy / 127.0.0.1:20080 {
-                transparent
-        }
+  gzip
+  redir  301 {
+    if {>X-Forwarded-Proto} is http
+    / https://{host}{uri}
+  }
+  tls 10000@163.com
+  log /var/log/caddy/nps.log {
+    rotate_size 5
+    rotate_age 5
+    rotate_keep 2
+    rotate_compress
+  }
+  proxy / 127.0.0.1:20080 {
+    ransparent
+  }
 }
-
+```
 
 重启一下caddy，收工了！！
 
-后话
+## 后话
+
 需要开辟另一篇来做以下nps的其他代理的介绍！！
