@@ -1,5 +1,5 @@
 ---
-title: 好用不重的内网穿透软件NPS
+title: 好用轻量的内网穿透软件NPS
 date: 2020-03-04 08:16:00
 tags: 
   - nps
@@ -125,8 +125,7 @@ nps start #启动引擎
 
 ## 反向代理
 
-反向代理，我用的是Caddy，因为简单高效，最重要的是不用管证书，可以自动获取更新SSL证书。Caddy的2.0版本已经出来，但还处于beta版本，所以我用的是1.0系列版本。Caddy自带启动脚本，我用的服务器系统是centos
-7.4 64bit，所以，我用到的启动脚本是init/linux-systemd/caddy.service。根据启动脚本的内容，得知需要把caddy可执行文件放到/usr/local/bin目录，并且确定配置文件是/etc/caddy/Caddyfile。
+反向代理，我用的是Caddy，因为简单高效，最重要的是不用管证书，可以自动获取更新SSL证书。Caddy的2.0版本已经出来，但还处于beta版本，所以我用的是1.0系列版本。Caddy自带启动脚本，我用的服务器系统是centos 7.4 64bit，所以，我用到的启动脚本是init/linux-systemd/caddy.service。根据启动脚本的内容，得知需要把caddy可执行文件放到/usr/local/bin目录，并且确定配置文件是/etc/caddy/Caddyfile。
 
 ```
 mkdir -p /data/caddy #建立基地
