@@ -177,7 +177,7 @@ systemctl start caddy.service #启动caddy
 
 ## caddy网页端管理
 
-访问https://nps.domain.tls，输入上面配置文件里面的web_username和web_password登录。点击左边菜单“客户端”，点击“新增”按钮新增客户端。按照下图填写表单，填写好了，点击“新增”按钮保存。
+访问“https://nps.domain.tls”，输入上面配置文件里面的web_username和web_password登录。点击左边菜单“客户端”，点击“新增”按钮新增客户端。按照下图填写表单，填写好了，点击“新增”按钮保存。
 
 ![新增客户端](/images/nps1.jpg "新增客户端")
 
