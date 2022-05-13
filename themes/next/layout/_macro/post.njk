@@ -2,6 +2,10 @@
 {### POST BLOCK ###}
 {##################}
 <div class="post-block">
+  {%- if not is_index %}
+    {# Gallery support #}
+    {{ post_gallery(post.photos) }}
+  {%- endif %}
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="{{ post.lang }}">
     <link itemprop="mainEntityOfPage" href="{{ post.permalink }}">
@@ -57,10 +61,12 @@
         </div>
       </header>
     {%- endif %}
+
     {%- if is_index %}
       {# Gallery support #}
       {{ post_gallery(post.photos) }}
     {%- endif %}
+
     {#################}
     {### POST BODY ###}
     {#################}
