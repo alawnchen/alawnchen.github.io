@@ -58,10 +58,8 @@
       </header>
     {%- endif %}
 
-    {%- if is_index %}
-      {# Gallery support #}
-      {{ post_gallery(post.photos) }}
-    {%- endif %}
+    {# Gallery support #}
+    {{ post_gallery(post.photos) }}
 
     {#################}
     {### POST BODY ###}
