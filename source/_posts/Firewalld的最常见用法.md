@@ -1,13 +1,14 @@
 ---
-title: Firewalld的基本用法
+title: Firewalld的常见用法
 date: 2022-05-22 02:37:38
 tags: 
   - Firewalld
   - 防火墙
   - ipset
+  - 网络安全
 categories:
   - 技术
-url: firewalld-basic-usage
+url: the-most-common-usage-firewalld
 description: 7.0之后，centos自带Firewalld作为默认的防火墙软件。而常见的Linux服务器操作系统里面也有不小比例的发行版本也自带了Firewalld作为防火墙软件。所以呢，对Firewalld有些基本了解还是需要的。
 ---
 
@@ -128,6 +129,8 @@ firewall-cmd --zone=public --remove-masquerade --permanent
 ```
 //新增一个名称为leochan，hash:ip类型的ipset
 firewall-cmd --permanent --new-ipset=leochan --type='hash:ip'
+//新增一个名称为leochan，hash:ip类型的ipset，IP是ipv6
+firewall-cmd --permanent --new-ipset=leochan --type='hash:ip' --option='family=inet6'
 //查看ipset支持的类型
 firewall-cmd --get-ipset-types
 //移除掉名称为leochan的ipset
