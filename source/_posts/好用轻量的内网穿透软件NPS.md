@@ -6,7 +6,9 @@ tags:
   - 内网穿透
 categories:
   - 技术
-url: hao-yong-bu-zhong-de-nei-wang-chuan-tou-ruan-jian-nps
+photos:
+  - "/images/b9be3cae2d0a1c308d21909145aebf70.jpeg"
+url: a-light-weight-network-penetration-tool-nps
 description: 内网穿透用过几个了，有用过群晖自带，用过FRP，用过ngrok，用过阿里云DDNS，还尝试用过LEDE自带的Kool DDNS。但是说到最满意的，还是当下使用的NPS。NPS的特点嘛，简单、好用、硬件要求低、轻量，还有配置简单和跨平台性极好。
 ---
 
