@@ -1,5 +1,5 @@
 ---
-title: Firewalld的常见用法
+title: Firewalld的最常见用法
 date: 2022-05-22 02:37:38
 tags: 
   - Firewalld
@@ -8,6 +8,8 @@ tags:
   - 网络安全
 categories:
   - 技术
+photos:
+  - "/images/9644d159a79fb11b4a8416cc72a1bdc44fcb718c-fp-2000-500-0-0.jpeg"
 url: the-most-common-usage-firewalld
 description: 7.0之后，centos自带Firewalld作为默认的防火墙软件。而常见的Linux服务器操作系统里面也有不小比例的发行版本也自带了Firewalld作为防火墙软件。所以呢，对Firewalld有些基本了解还是需要的。
 ---
