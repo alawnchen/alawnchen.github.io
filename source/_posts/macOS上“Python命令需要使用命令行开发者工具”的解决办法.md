@@ -1,6 +1,6 @@
 ---
 title: macOS上“Python命令需要使用命令行开发者工具”的解决办法
-date: 2022-07-15 02:37:38
+date: 2022-07-15 07:37:38
 tags: 
   - macOS
   - node-sass
